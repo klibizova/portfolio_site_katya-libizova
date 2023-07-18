@@ -40,3 +40,20 @@ h3{
 img {
     width: 100%;
   }
+  a{
+    color:cadetblue 
+  }
+  a:visited { /* visited link */
+    color: #B9B9B9;
+  }
+  a:hover { 
+    color: #77E3C6;
+  }
+  a:hover,
+  a:focus {
+    color: #77E3C6;
+    text-decoration: underline;
+  }
+  a:active { /* selected link */
+    color: #15b7bf;
+  }
