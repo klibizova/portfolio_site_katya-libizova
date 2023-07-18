@@ -1,0 +1,21 @@
+/*
+Colors used:
+Primary/Background Color (Charcoal): #282828;
+Secondary/Nav Bars & Section Headings Color (Black): #000000;
+Text Color (White): #FFFFFF;
+Subtext Color (Slate): #B9B9B9;
+Highlight Color (Emerald): #77E3C6
+
+Font used::
+Headings: Oxygen, Bold
+Subheadings: Fira Sans Condensed, Bold
+Body paragraphs: Rubik, Regular
+*/
+body {
+    background-color:#282828;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
