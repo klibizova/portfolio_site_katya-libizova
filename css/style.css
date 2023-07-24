@@ -18,6 +18,10 @@ Body paragraphs: Rubik, Regular
     background-color: cadetblue;
     text-align: center;
     padding: 10px 0;
+    position: relative; 
+	box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
   }
 body {
     background-color:#282828;
@@ -140,3 +144,10 @@ width: 100%;
   nav > ul > li > a:active {
     color: #000000;
   }
+  #hero {
+    background-color: cadetblue;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
+  
