@@ -92,3 +92,7 @@ img {
     background-color: #77E3C6;
     color: #ffffff;
   }
+  /* Layout styling */
+  .container {
+    padding: 0 15px;
+  }
