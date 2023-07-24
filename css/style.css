@@ -11,6 +11,9 @@ Headings: Oxygen, Bold
 Subheadings: Fira Sans Condensed, Bold
 Body paragraphs: Rubik, Regular
 */
+* {
+    box-sizing: border-box;
+  }
 body {
     background-color:#282828;
     color: white;
