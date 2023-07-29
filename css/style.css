@@ -166,6 +166,9 @@ Medium devices (640px and larger)
       header{
         padding-bottom: 65px;
       }
+      body{
+        font-size: 18px;
+      }
 }
 /* ==============================
 Large devices (1024px or larger)
