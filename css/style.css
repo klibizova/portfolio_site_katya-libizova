@@ -166,6 +166,10 @@ Medium devices (640px and larger)
       header{
         padding-bottom: 65px;
       }
+      #site-logo{
+        width:auto
+        float:left
+      }
       body{
         font-size: 18px;
       }
