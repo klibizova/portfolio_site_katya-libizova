@@ -169,6 +169,9 @@ Medium devices (640px and larger)
       body{
         font-size: 18px;
       }
+      #hero span {
+        display: block;
+      }
 }
 /* ==============================
 Large devices (1024px or larger)
