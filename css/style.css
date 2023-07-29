@@ -163,6 +163,9 @@ Medium devices (640px and larger)
         float: right;
         margin-top: 4px;
       }
+      header{
+        padding-bottom: 65px;
+      }
 }
 /* ==============================
 Large devices (1024px or larger)
