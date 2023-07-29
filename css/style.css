@@ -154,6 +154,9 @@ width: 100%;
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+    header {
+        text-align: unset;
+      }
 }
 /* ==============================
 Large devices (1024px or larger)
