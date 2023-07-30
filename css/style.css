@@ -218,3 +218,11 @@ X-large devices (1440px or larger)
     max-width: 100%;
     height: auto;
 }
+@keyframes color-change {
+    0% {fill: #F3C2D4;}
+    50% {fill: #e891b1;}
+    100% {fill: #fb6ca0;}
+  }
+  .hot-air-balloon {
+    animation: 4s color-change infinite alternate linear;
+  }
