@@ -195,6 +195,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+    .col-lg-5 {
+        width: 41.65%;
+      }
+    .col-lg-7 {
+        width: 58.35%;
+      }
 }
 /* ==============================
 X-large devices (1440px or larger)
