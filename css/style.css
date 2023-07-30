@@ -251,3 +251,10 @@ X-large devices (1440px or larger)
   .cloud-3 {
     animation: 30s cloud-move-2 infinite alternate linear;
   }
+@keyframes cloud-move-3 {
+    from {transform: translate(-430px,10px);}
+    to {transform: translate(-100px, 10px);}
+  }
+  .cloud-4 {
+    animation: 40s cloud-move-3 infinite alternate linear;
+  }
