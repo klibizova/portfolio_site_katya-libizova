@@ -237,3 +237,10 @@ X-large devices (1440px or larger)
     animation-direction: alternate;
     animation-timing-function: linear;
   }
+@keyframes cloud-move-reverse {
+    from {transform: translate(446px,20px);}
+    to {transform: translate(100px, 20px);}
+  }
+  .cloud-2 {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+  }
