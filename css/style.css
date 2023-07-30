@@ -258,3 +258,10 @@ X-large devices (1440px or larger)
   .cloud-4 {
     animation: 40s cloud-move-3 infinite alternate linear;
   }
+  @keyframes hot-air-balloon-move {
+    from {transform: translate(0,0px);}
+    to {transform: translate(0, 20px);}
+  }
+  .hot-air-balloon-group {
+    animation: 10s hot-air-balloon-move infinite alternate linear;
+  }
