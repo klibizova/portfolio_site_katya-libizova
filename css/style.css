@@ -244,3 +244,10 @@ X-large devices (1440px or larger)
   .cloud-2 {
     animation: 34s cloud-move-reverse infinite alternate linear;
   }
+@keyframes cloud-move-2 {
+    from {transform: translate(-20px,20px);}
+    to {transform: translate(300px, 20px);}
+  }
+  .cloud-3 {
+    animation: 30s cloud-move-2 infinite alternate linear;
+  }
