@@ -227,8 +227,8 @@ X-large devices (1440px or larger)
     animation: 4s color-change infinite alternate linear;
   }
 @keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px,50px);}
+    from {transform: translate(0,30px);}
+    to {transform: translate(200px,30px);}
   }
   .cloud-1 {
     animation-duration: 30s;
