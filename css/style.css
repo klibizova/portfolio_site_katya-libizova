@@ -16,13 +16,15 @@ Body paragraphs: Rubik, Regular
   }
   header {
     background-color: cadetblue;
-    text-align: center;
     padding: 10px 0;
     position: relative; 
 	box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-webkit-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-moz-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
   }
+#site-logo {
+    width: 150px;
+}
 body {
     background-color:#282828;
     color: white;
@@ -167,13 +169,6 @@ Medium devices (640px and larger)
         width: auto;
         float: right;
         margin-top: 4px;
-      }
-      header{
-        padding-bottom: 65px;
-      }
-      #site-logo{
-        width:auto
-        float:left
       }
       body{
         font-size: 18px;
