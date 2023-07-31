@@ -89,18 +89,17 @@ img {
     text-decoration: none;
   }
   .button.contact {
-    background-color: transparent;
-    color: cadetblue;
+    background-color: cadetblue;
+    color: white;
     text-transform: uppercase;
-    border: 2px solid cadetblue;
+    border: 2px solid whitesmoke;
   }
   .button.contact:hover {
-    background-color: cadetblue;
+    background-color: #77E3C6;
     color: #ffffff;
   }
   .button.contact:active {
-    background-color: #77E3C6;
-    color: #ffffff;
+    opacity: 0.5;
   }
   /* Layout styling */
   .container {
