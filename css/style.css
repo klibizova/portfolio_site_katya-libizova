@@ -104,6 +104,16 @@ img {
   .button.contact:active {
     opacity: 0.5;
   }
+  #social-media-icons{
+    text-align: center;
+  }
+  #social-media-icons li{
+    display: inline-block;
+  }
+  #social-media-icons svg{
+    height: 100px;
+    width: 100px;
+  }
 
   /* Layout styling */
   .container {
