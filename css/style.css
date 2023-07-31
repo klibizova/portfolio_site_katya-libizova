@@ -73,6 +73,7 @@ img {
     display: inline-block; 
     background-color: cadetblue;
     color: #ffffff; 
+    text-decoration: none;
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
