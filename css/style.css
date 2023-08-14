@@ -176,6 +176,9 @@ img {
     font-size: 20px;
     padding-right: 0;
   }
+  .navtoggle.responsive li  {
+    display: block;
+  }
   
   /* ==============================
 Medium devices (640px and larger)
