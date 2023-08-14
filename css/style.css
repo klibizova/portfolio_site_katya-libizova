@@ -23,7 +23,7 @@ Body paragraphs: Rubik, Regular
 	-moz-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
   }
 #site-logo {
-    max-width: 75%;
+    max-width: 150px;
 }
 body {
     background-color:#282828;
