@@ -166,9 +166,19 @@ width: 100%;
     display: inline-block;
     width: 100%;
   }
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
   .navtoggle li:not(:last-child) {
     display: none;
   }
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
+  
   /* ==============================
 Medium devices (640px and larger)
 ================================= */
