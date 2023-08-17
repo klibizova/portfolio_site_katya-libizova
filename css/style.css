@@ -42,6 +42,9 @@ h1{
     font-size: 26px;
     font-weight: 700;  
 }
+#hero h1 span{
+    font-weight: 300;
+}
 h2,h3{
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 700;  
