@@ -206,12 +206,14 @@ Medium devices (640px and larger)
         padding: 20px 0 13px;
       }
       #site-logo {
-        width: 250px;
+        max-width: 300px;
+        height: auto;
     }
       nav {
         width: auto;
         float: right;
-        margin-top: 4px;
+        margin-top: auto;
+        margin-bottom: auto;
       }
       nav > ul {
         margin: 1em 0;
