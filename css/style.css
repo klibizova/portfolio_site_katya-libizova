@@ -126,6 +126,18 @@ img {
   #about-page main{
     padding: 5%;
   }
+  #saavvy-page main{
+    padding: 5%;
+  }
+  #earbuds-page main{
+    padding: 5%;
+  }
+  #finalthread-page main{
+    padding: 5%;
+  }
+  #wagworld-page main{
+    padding: 5%;
+  }
   .row {
     margin: 25px 0; /* 25px top and bottom, 0 left and right */
   }
