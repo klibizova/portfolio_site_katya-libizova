@@ -261,6 +261,10 @@ Medium devices (640px and larger)
       }
       #about-page h3 { margin-top: 0;}
       #work h3 {margin-top: 0;}
+      #about-page picture {
+        height: auto;
+        max-width: max-content;
+      }
 }
 /* ==============================
 Large devices (1024px or larger)
