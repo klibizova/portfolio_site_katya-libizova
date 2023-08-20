@@ -61,9 +61,7 @@ img {
   a{
     color:rgb(255, 255, 255) 
   }
-  a:visited { /* visited link */
-    color: #B9B9B9;
-  }
+  
   a:hover { 
     color: #77E3C6;
   }
