@@ -32,6 +32,12 @@ main {
   display: block;
 }
 
+/* Remove extra left padding on headings to align them to the rest of content on all pages */
+
+ul {
+  padding-inline-start: 0;
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
