@@ -84,6 +84,10 @@ img {
     border-bottom: 2px solid rgb(56, 98, 99); /* width of the border, type, color */
     transition: 0.2s opacity;
   }
+  #about-page .row .button {
+    display: flex;
+    justify-content:center;
+  }
   .button:hover {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
     text-decoration: none;
