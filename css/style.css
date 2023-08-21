@@ -255,6 +255,9 @@ Medium devices (640px and larger)
       .navtoggle li:last-child {
         display: none;
       }
+      #work h2{
+        padding-left: 10px;
+      }
       body{
         font-size: 18px;
       }
