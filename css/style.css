@@ -12,294 +12,308 @@ Subheadings: Fira Sans Condensed, Bold
 Body paragraphs: Rubik, Regular
 */
 * {
-    box-sizing: border-box;
-  }
-  header {
-    background-color: cadetblue;
-    padding: 10px 0 4px;
-    position: relative; 
-	box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-	-webkit-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-	-moz-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-  }
+  box-sizing: border-box;
+}
+header {
+  background-color: cadetblue;
+  padding: 10px 0 4px;
+  position: relative;
+  box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5);
+}
 #site-logo {
-    max-width: 150px;
+  max-width: 150px;
 }
 body {
-    background-color:#282828;
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
+  background-color: #282828;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
 }
-h1,h2,h3{
-    line-height: 1.2;
-    text-align: justify;
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  text-align: justify;
 }
-h1{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 26px;
-    font-weight: 700;  
+h1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
 }
-#hero h1 span{
-    font-weight: 300;
+#hero h1 span {
+  font-weight: 300;
 }
-h2,h3{
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-weight: 700;  
+h2,
+h3 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
 }
-h2{
-    font-size: 24;
+h2 {
+  font-size: 24;
 }
-h3{
-    font-size: 20;
+h3 {
+  font-size: 20;
 }
 img {
-    width: 100%;
-  }
-  a{
-    color:rgb(255, 255, 255) 
-  }
-  
-  a:hover { 
-    color: #77E3C6;
-  }
-  a:hover,
-  a:focus {
-    color: #77E3C6;
-    text-decoration: underline;
-  }
-  a:active { /* selected link */
-    color: #15b7bf;
-  }
-  .button {
-    display: inline-block; 
-    background-color: cadetblue;
-    color: #ffffff; 
-    text-decoration: none;
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid rgb(56, 98, 99); /* width of the border, type, color */
-    transition: 0.2s opacity;
-  }
-  #about-page .row .button {
-    display: flex;
-    justify-content:center;
-  }
-  .button:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-  }
-  .button:active {
-    opacity: 1.4; 
-    text-decoration: none;
-  }
-  .button.contact {
-    background-color: cadetblue;
-    color: white;
-    text-transform: uppercase;
-    border: 2px solid whitesmoke;
-  }
-  .button.contact:hover {
-    background-color: #77E3C6;
-    color: #ffffff;
-  }
-  .button.contact:active {
-    opacity: 0.5;
-  }
-  #social-media-icons{
-    text-align: center;
-  }
-  #social-media-icons li{
-    display: inline-block;
-  }
-  #social-media-icons svg{
-    height: 100px;
-    width: 100px;
-    color: white;
-  }
+  width: 100%;
+}
+a {
+  color: rgb(255, 255, 255);
+}
 
-  /* Layout styling */
-  .container {
-    padding: 0 15px;
-  }
-  #about-page main{
-    padding: 5%;
-  }
-  #saavvy-page main{
-    padding: 5%;
-  }
-  #earbuds-page main{
-    padding: 5%;
-  }
-  #finalthread-page main{
-    padding: 5%;
-  }
-  #wagworld-page main{
-    padding: 5%;
-  }
-  .row {
-    margin: 25px 0; /* 25px top and bottom, 0 left and right */
-  }
-  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
-  #hero h1 {
-    text-align: center; /* Centers text */
-  }
-  .center {
-    text-align: center;
-  }
-  .logo {
-    max-width: 250px;
-  }
-  main .anchor-links > ul {
-    list-style-type: none;
-    float: left;
-  }
-  main .anchor-links > ul > li {
-    display: inline-block;
-    font-weight: 500;
-  }
-  main .anchor-links > ul > li > a {
-    padding: 0 15px;
-    color: cadetblue;
-    text-decoration: none;
-  }
-  nav > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav > ul > li > a {
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-  }
-  nav > ul > li > a:visited {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  nav > ul > li > a:hover {
-    color: #77E3C6;
-  }
-  nav > ul > li > a:active {
-    color: #000000;
-  }
-  #hero {
-    background-color: cadetblue;
-    padding: 20px 0;
-    display: inline-block;
-    width: 100%;
-  }
-  .navtoggle, .navtoggle.responsive {
-    position: relative;
-  }
-  .navtoggle li:not(:last-child) {
-    display: none;
-  }
-  .navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 2px;
-    font-size: 20px;
-    padding-right: 0;
-  }
-  .navtoggle.responsive nav {
-    padding: 24px 0 0;
-  }
-  .navtoggle.responsive li  {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.903);
-  }
+a:hover {
+  color: #77e3c6;
+}
+a:hover,
+a:focus {
+  color: #77e3c6;
+  text-decoration: underline;
+}
+a:active {
+  /* selected link */
+  color: #15b7bf;
+}
+.button {
+  display: inline-block;
+  background-color: cadetblue;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(56, 98, 99); /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+#about-page .row .button {
+  display: flex;
+  justify-content: center;
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button:active {
+  opacity: 1.4;
+  text-decoration: none;
+}
+.button.contact {
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid whitesmoke;
+}
+.button.contact:hover {
+  background-color: #77e3c6;
+  color: #ffffff;
+}
+.button.contact:active {
+  opacity: 0.5;
+}
+#social-media-icons {
+  text-align: center;
+}
+#social-media-icons li {
+  display: inline-block;
+}
+#social-media-icons svg {
+  height: 100px;
+  width: 100px;
+  color: white;
+}
 
-  .navtoggle.responsive li a {
-    text-decoration: none;
-  }
-  
-  .navtoggle.responsive li:last-child  {
-    padding: 0 0 10px;
-  }
-  
-  /* ==============================
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+#about-page main {
+  padding: 5%;
+}
+#saavvy-page main {
+  padding: 5%;
+}
+#earbuds-page main {
+  padding: 5%;
+}
+#finalthread-page main {
+  padding: 5%;
+}
+#wagworld-page main {
+  padding: 5%;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+.center {
+  text-align: center;
+}
+.logo {
+  max-width: 250px;
+}
+main .anchor-links > ul {
+  list-style-type: none;
+  float: left;
+}
+main .anchor-links > ul > li {
+  display: inline-block;
+  font-weight: 500;
+}
+main .anchor-links > ul > li > a {
+  padding: 0 15px;
+  color: cadetblue;
+  text-decoration: none;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+nav > ul > li > a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  color: #77e3c6;
+}
+nav > ul > li > a:active {
+  color: #000000;
+}
+#hero {
+  background-color: cadetblue;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.903);
+}
+
+.navtoggle.responsive li a {
+  text-decoration: none;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+/* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-    header {
-        text-align: unset;
-        padding: 20px 0 13px;
-      }
-      #site-logo {
-        max-width: 300px;
-        height: auto;
-    }
-      nav {
-        width: auto;
-        float: right;
-        margin-top: auto;
-        margin-bottom: auto;
-      }
-      nav > ul {
-        margin: 1em 0;
-      }
-      nav > ul > li {
-        display: inline-block;
-      }
-      .navtoggle li:not(:last-child) {
-        display: inline-block;
-      }
-      .navtoggle li:last-child {
-        display: none;
-      }
-      #work h2{
-        padding-left: 10px;
-      }
-      body{
-        font-size: 18px;
-      }
-      #hero span {
-        display: block;
-      }
-      .col-md-6 {
-        width: 50%;
-      }
-      [class*="col-"] {
-        float: left;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-      .row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-      #about-page h2.first-instance {margin-top: 0;}
-      #about-page h3 { margin-top: 0;}
-      #work h3 {margin-top: 0;}
-      #about-page picture {
-        height: auto;
-        max-width: max-content;
-      }
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  #site-logo {
+    max-width: 300px;
+    height: auto;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  nav > ul {
+    margin: 1em 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+  #work h2 {
+    padding-left: 10px;
+  }
+  body {
+    font-size: 18px;
+  }
+  #hero span {
+    display: block;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #about-page h2.first-instance {
+    margin-top: 0;
+  }
+  #about-page h3 {
+    margin-top: 0;
+  }
+  #work h3 {
+    margin-top: 0;
+  }
+  #about-page picture {
+    height: auto;
+    max-width: max-content;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-    .col-lg-5 {
-        width: 41.65%;
-      }
-    .col-lg-7 {
-        width: 58.35%;
-      }
-      .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-      }
+  .col-lg-5 {
+    width: 41.65%;
+  }
+  .col-lg-7 {
+    width: 58.35%;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* ==============================
 X-large devices (1440px or larger)
@@ -308,54 +322,80 @@ X-large devices (1440px or larger)
 }
 /* Animation */
 .nyc-illustration {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 @keyframes color-change {
-    0% {fill: #F3C2D4;}
-    50% {fill: #e891b1;}
-    100% {fill: #fb6ca0;}
+  0% {
+    fill: #f3c2d4;
   }
-  .hot-air-balloon {
-    animation: 4s color-change infinite alternate linear;
+  50% {
+    fill: #e891b1;
   }
+  100% {
+    fill: #fb6ca0;
+  }
+}
+.hot-air-balloon {
+  animation: 4s color-change infinite alternate linear;
+}
 @keyframes cloud-move {
-    from {transform: translate(0,30px);}
-    to {transform: translate(200px,30px);}
+  from {
+    transform: translate(0, 30px);
   }
-  .cloud-1 {
-    animation-duration: 30s;
-    animation-name: cloud-move;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+  to {
+    transform: translate(200px, 30px);
   }
+}
+.cloud-1 {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
 @keyframes cloud-move-reverse {
-    from {transform: translate(446px,20px);}
-    to {transform: translate(100px, 20px);}
+  from {
+    transform: translate(446px, 20px);
   }
-  .cloud-2 {
-    animation: 34s cloud-move-reverse infinite alternate linear;
+  to {
+    transform: translate(100px, 20px);
   }
+}
+.cloud-2 {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
 @keyframes cloud-move-2 {
-    from {transform: translate(-20px,20px);}
-    to {transform: translate(300px, 20px);}
+  from {
+    transform: translate(-20px, 20px);
   }
-  .cloud-3 {
-    animation: 30s cloud-move-2 infinite alternate linear;
+  to {
+    transform: translate(300px, 20px);
   }
+}
+.cloud-3 {
+  animation: 30s cloud-move-2 infinite alternate linear;
+}
 @keyframes cloud-move-3 {
-    from {transform: translate(-430px,10px);}
-    to {transform: translate(-100px, 10px);}
+  from {
+    transform: translate(-430px, 10px);
   }
-  .cloud-4 {
-    animation: 40s cloud-move-3 infinite alternate linear;
+  to {
+    transform: translate(-100px, 10px);
   }
-  @keyframes hot-air-balloon-move {
-    from {transform: translate(0,0px);}
-    to {transform: translate(0, 20px);}
+}
+.cloud-4 {
+  animation: 40s cloud-move-3 infinite alternate linear;
+}
+@keyframes hot-air-balloon-move {
+  from {
+    transform: translate(0, 0px);
   }
-  .hot-air-balloon-group {
-    animation: 10s hot-air-balloon-move infinite alternate linear;
+  to {
+    transform: translate(0, 20px);
   }
+}
+.hot-air-balloon-group {
+  animation: 10s hot-air-balloon-move infinite alternate linear;
+}
