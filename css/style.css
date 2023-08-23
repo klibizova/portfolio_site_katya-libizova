@@ -307,10 +307,10 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   .col-lg-5 {
-    width: 41.65%;
+    width: 50%;
   }
   .col-lg-7 {
-    width: 58.35%;
+    width: 50%;
   }
   .container {
     max-width: 1200px;
