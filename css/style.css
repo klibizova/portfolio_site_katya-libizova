@@ -15,7 +15,7 @@ Body paragraphs: Rubik, Regular
   box-sizing: border-box;
 }
 header {
-  background-color: cadetblue;
+  background-color: #4c7f81;
   padding: 10px 0 4px;
   position: relative;
   box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.5);
@@ -79,7 +79,7 @@ a:active {
 }
 .button {
   display: inline-block;
-  background-color: cadetblue;
+  background-color: #4c7f81;
   color: #ffffff;
   text-decoration: none;
   font-weight: 400;
@@ -101,7 +101,7 @@ a:active {
   text-decoration: none;
 }
 .button.contact {
-  background-color: cadetblue;
+  background-color: #4c7f81;
   color: white;
   text-transform: uppercase;
   border: 2px solid whitesmoke;
@@ -197,7 +197,7 @@ nav > ul > li > a:active {
   color: #000000;
 }
 #hero {
-  background-color: cadetblue;
+  background-color: #4c7f81;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
