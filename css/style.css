@@ -173,6 +173,13 @@ main .anchor-links > ul > li > a {
   color: cadetblue;
   text-decoration: none;
 }
+main .scroll-up {
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
 nav > ul {
   list-style-type: none;
   padding: 0;
