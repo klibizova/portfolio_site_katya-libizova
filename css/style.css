@@ -46,6 +46,7 @@ h1 {
 }
 #hero h1 span {
   font-weight: 300;
+  display: inline-block;
 }
 h2,
 h3 {
