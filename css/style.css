@@ -46,7 +46,7 @@ h1 {
 }
 #hero h1 span {
   font-weight: 300;
-  display: inline-block;
+  display: block;
 }
 h2,
 h3 {
@@ -280,9 +280,7 @@ Medium devices (640px and larger)
   body {
     font-size: 18px;
   }
-  #hero span {
-    display: block;
-  }
+
   .col-md-6 {
     width: 50%;
   }
